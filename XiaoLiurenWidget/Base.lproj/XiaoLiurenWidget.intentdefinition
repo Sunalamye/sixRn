@@ -9,11 +9,11 @@
 	<key>INIntentDefinitionNamespace</key>
 	<string>88xZPY</string>
 	<key>INIntentDefinitionSystemVersion</key>
-	<string>21G115</string>
+	<string>23A5276g</string>
 	<key>INIntentDefinitionToolsBuildVersion</key>
-	<string>14A309</string>
+	<string>15A5161b</string>
 	<key>INIntentDefinitionToolsVersion</key>
-	<string>14.0</string>
+	<string>15.0</string>
 	<key>INIntents</key>
 	<array>
 		<dict>
@@ -27,6 +27,8 @@
 			<true/>
 			<key>INIntentIneligibleForSuggestions</key>
 			<true/>
+			<key>INIntentLastParameterTag</key>
+			<integer>1</integer>
 			<key>INIntentName</key>
 			<string>Configuration</string>
 			<key>INIntentResponse</key>

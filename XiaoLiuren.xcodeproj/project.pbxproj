@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EC849DE528DF989200DFB619 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC849DE328DF989200DFB619 /* Model.swift */; };
-		EC849DE628DF989200DFB619 /* Threeshin.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC849DE428DF989200DFB619 /* Threeshin.swift */; };
 		EC849DEE28DF990000DFB619 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC849DED28DF990000DFB619 /* WidgetKit.framework */; };
 		EC849DF028DF990000DFB619 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC849DEF28DF990000DFB619 /* SwiftUI.framework */; };
 		EC849DF328DF990100DFB619 /* XiaoLiurenWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC849DF228DF990100DFB619 /* XiaoLiurenWidget.swift */; };
 		EC849DF628DF990200DFB619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC849DF528DF990200DFB619 /* Assets.xcassets */; };
 		EC849DFC28DF990200DFB619 /* XiaoLiurenWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = EC849DEB28DF990000DFB619 /* XiaoLiurenWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		EC849E2B28E0755B00DFB619 /* nqjsi.json in Resources */ = {isa = PBXBuildFile; fileRef = EC849E2A28E0755B00DFB619 /* nqjsi.json */; };
-		EC849E2F28E08DB200DFB619 /* EasyBodyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC849E2E28E08DB200DFB619 /* EasyBodyInfo.swift */; };
 		EC849E3328E09E0400DFB619 /* XiaoLiurenWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = EC849E3628E09E0400DFB619 /* XiaoLiurenWidget.intentdefinition */; };
 		EC849E3428E09E0400DFB619 /* XiaoLiurenWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = EC849E3628E09E0400DFB619 /* XiaoLiurenWidget.intentdefinition */; };
 		EC8F2E5728B7B66300CEEF8F /* XiaoLiurenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8F2E5628B7B66300CEEF8F /* XiaoLiurenApp.swift */; };
 		EC8F2E5928B7B66300CEEF8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8F2E5828B7B66300CEEF8F /* ContentView.swift */; };
 		EC8F2E5B28B7B66C00CEEF8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8F2E5A28B7B66C00CEEF8F /* Assets.xcassets */; };
 		EC8F2E5E28B7B66C00CEEF8F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8F2E5D28B7B66C00CEEF8F /* Preview Assets.xcassets */; };
+		ECCAD9DC2A4E5DBD006CFDE6 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCAD9DA2A4E5DBD006CFDE6 /* Model.swift */; };
+		ECCAD9DD2A4E5DBD006CFDE6 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCAD9DA2A4E5DBD006CFDE6 /* Model.swift */; };
+		ECCAD9F22A4E5F01006CFDE6 /* TransparentBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCAD9EE2A4E5F01006CFDE6 /* TransparentBlurView.swift */; };
+		ECCAD9F32A4E5F01006CFDE6 /* Threeshin.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCAD9EF2A4E5F01006CFDE6 /* Threeshin.swift */; };
+		ECCAD9F42A4E5F01006CFDE6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCAD9F02A4E5F01006CFDE6 /* HomeView.swift */; };
+		ECCAD9F52A4E5F01006CFDE6 /* EasyBodyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCAD9F12A4E5F01006CFDE6 /* EasyBodyInfo.swift */; };
+		ECCAD9FD2A4E5FC7006CFDE6 /* Threeshin.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCAD9EF2A4E5F01006CFDE6 /* Threeshin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +53,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		EC849DE328DF989200DFB619 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		EC849DE428DF989200DFB619 /* Threeshin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Threeshin.swift; sourceTree = "<group>"; };
 		EC849DEB28DF990000DFB619 /* XiaoLiurenWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = XiaoLiurenWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC849DED28DF990000DFB619 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		EC849DEF28DF990000DFB619 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
@@ -58,7 +60,6 @@
 		EC849DF528DF990200DFB619 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC849DF728DF990200DFB619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC849E2A28E0755B00DFB619 /* nqjsi.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nqjsi.json; sourceTree = "<group>"; };
-		EC849E2E28E08DB200DFB619 /* EasyBodyInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyBodyInfo.swift; sourceTree = "<group>"; };
 		EC849E3228E09DF000DFB619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		EC849E3528E09E0400DFB619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; name = Base; path = Base.lproj/XiaoLiurenWidget.intentdefinition; sourceTree = "<group>"; };
 		EC849E3828E09E0600DFB619 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/XiaoLiurenWidget.strings; sourceTree = "<group>"; };
@@ -67,6 +68,13 @@
 		EC8F2E5828B7B66300CEEF8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EC8F2E5A28B7B66C00CEEF8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC8F2E5D28B7B66C00CEEF8F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ECCAD9D42A4E56C5006CFDE6 /* XiaoLiurenWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XiaoLiurenWidgetExtension.entitlements; sourceTree = "<group>"; };
+		ECCAD9D52A4E56D1006CFDE6 /* XiaoLiuren.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XiaoLiuren.entitlements; sourceTree = "<group>"; };
+		ECCAD9DA2A4E5DBD006CFDE6 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		ECCAD9EE2A4E5F01006CFDE6 /* TransparentBlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransparentBlurView.swift; sourceTree = "<group>"; };
+		ECCAD9EF2A4E5F01006CFDE6 /* Threeshin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Threeshin.swift; sourceTree = "<group>"; };
+		ECCAD9F02A4E5F01006CFDE6 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		ECCAD9F12A4E5F01006CFDE6 /* EasyBodyInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyBodyInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,17 +117,10 @@
 			path = XiaoLiurenWidget;
 			sourceTree = "<group>";
 		};
-		EC849E2928E0754600DFB619 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				EC849E2A28E0755B00DFB619 /* nqjsi.json */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		EC8F2E4A28B7B66300CEEF8F = {
 			isa = PBXGroup;
 			children = (
+				ECCAD9D42A4E56C5006CFDE6 /* XiaoLiurenWidgetExtension.entitlements */,
 				EC8F2E5528B7B66300CEEF8F /* XiaoLiuren */,
 				EC849DF128DF990100DFB619 /* XiaoLiurenWidget */,
 				EC849DEC28DF990000DFB619 /* Frameworks */,
@@ -139,11 +140,10 @@
 		EC8F2E5528B7B66300CEEF8F /* XiaoLiuren */ = {
 			isa = PBXGroup;
 			children = (
+				ECCAD9D52A4E56D1006CFDE6 /* XiaoLiuren.entitlements */,
 				EC849E3228E09DF000DFB619 /* Info.plist */,
-				EC849E2928E0754600DFB619 /* Model */,
-				EC849DE328DF989200DFB619 /* Model.swift */,
-				EC849DE428DF989200DFB619 /* Threeshin.swift */,
-				EC849E2E28E08DB200DFB619 /* EasyBodyInfo.swift */,
+				ECCAD9D92A4E5DBD006CFDE6 /* Model */,
+				ECCAD9ED2A4E5F01006CFDE6 /* View */,
 				EC8F2E5628B7B66300CEEF8F /* XiaoLiurenApp.swift */,
 				EC8F2E5828B7B66300CEEF8F /* ContentView.swift */,
 				EC8F2E5A28B7B66C00CEEF8F /* Assets.xcassets */,
@@ -158,6 +158,26 @@
 				EC8F2E5D28B7B66C00CEEF8F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ECCAD9D92A4E5DBD006CFDE6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EC849E2A28E0755B00DFB619 /* nqjsi.json */,
+				ECCAD9DA2A4E5DBD006CFDE6 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ECCAD9ED2A4E5F01006CFDE6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ECCAD9EE2A4E5F01006CFDE6 /* TransparentBlurView.swift */,
+				ECCAD9EF2A4E5F01006CFDE6 /* Threeshin.swift */,
+				ECCAD9F02A4E5F01006CFDE6 /* HomeView.swift */,
+				ECCAD9F12A4E5F01006CFDE6 /* EasyBodyInfo.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +282,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECCAD9FD2A4E5FC7006CFDE6 /* Threeshin.swift in Sources */,
+				ECCAD9DD2A4E5DBD006CFDE6 /* Model.swift in Sources */,
 				EC849E3428E09E0400DFB619 /* XiaoLiurenWidget.intentdefinition in Sources */,
 				EC849DF328DF990100DFB619 /* XiaoLiurenWidget.swift in Sources */,
 			);
@@ -272,11 +294,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC849E3328E09E0400DFB619 /* XiaoLiurenWidget.intentdefinition in Sources */,
-				EC849DE628DF989200DFB619 /* Threeshin.swift in Sources */,
-				EC849DE528DF989200DFB619 /* Model.swift in Sources */,
-				EC849E2F28E08DB200DFB619 /* EasyBodyInfo.swift in Sources */,
+				ECCAD9F32A4E5F01006CFDE6 /* Threeshin.swift in Sources */,
+				ECCAD9F22A4E5F01006CFDE6 /* TransparentBlurView.swift in Sources */,
+				ECCAD9DC2A4E5DBD006CFDE6 /* Model.swift in Sources */,
 				EC8F2E5928B7B66300CEEF8F /* ContentView.swift in Sources */,
 				EC8F2E5728B7B66300CEEF8F /* XiaoLiurenApp.swift in Sources */,
+				ECCAD9F52A4E5F01006CFDE6 /* EasyBodyInfo.swift in Sources */,
+				ECCAD9F42A4E5F01006CFDE6 /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +333,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = XiaoLiurenWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YRJZ6WG9VC;
@@ -316,7 +341,7 @@
 				INFOPLIST_FILE = XiaoLiurenWidget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = XiaoLiurenWidget;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -338,6 +363,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = XiaoLiurenWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YRJZ6WG9VC;
@@ -345,7 +371,7 @@
 				INFOPLIST_FILE = XiaoLiurenWidget/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = XiaoLiurenWidget;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -481,8 +507,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = XiaoLiuren/XiaoLiuren.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"XiaoLiuren/Preview Content\"";
 				DEVELOPMENT_TEAM = YRJZ6WG9VC;
 				ENABLE_PREVIEWS = YES;
@@ -494,11 +521,12 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.suoie.XiaoLiuren;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -513,8 +541,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = XiaoLiuren/XiaoLiuren.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"XiaoLiuren/Preview Content\"";
 				DEVELOPMENT_TEAM = YRJZ6WG9VC;
 				ENABLE_PREVIEWS = YES;
@@ -526,11 +555,12 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.suoie.XiaoLiuren;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

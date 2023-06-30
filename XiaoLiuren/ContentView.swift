@@ -7,44 +7,23 @@
 
 import SwiftUI
 
+enum TabViewEnum{
+    case home
+}
 
 struct ContentView: View {
-    
-    @State  var sin = solarToLunar.lunarDate(date: Date())
-    @State var mainBody = ""
-    @State var guest = ""
-    @State var supper = ""
-    @StateObject var vm = ThreeShinModel()
-    
-    
+    @State var select: TabViewEnum = .home
 
-    
     var body: some View {
-//        Threeshin(sin:1)
-        VStack {
-            Button {
-                vm.splitNowYunShin()
-            } label: {
-                RoundedRectangle(cornerRadius: 10)
-                    .frame(height: 100)
-                    .foregroundStyle(.black)
-                    .overlay {
-                        Threeshin(mainBody: vm.mainBody, guest: vm.guest, supper: vm.supper)
-                            .foregroundColor(.white)
-                    }
-            }
+        ZStack {
+            Image(.joshCarterWJL4C7ETlI)
+                .resizable()
+                .scaledToFill()
+                .ignoresSafeArea()
 
-            
-            EasyBodyInfo(nowModel: vm.mainBody)
-                .foregroundColor(.gray)
-                .padding()
-                .overlay {
-                    Capsule(style: .continuous)
-                        .stroke(Color.brown, style: StrokeStyle(lineWidth: 5))
-                }
-
+            HomeView()
+            .frame(width: UIScreen.main.bounds.width*0.85, alignment: .center)
         }
-        .padding()
     }
     
     
