@@ -1,0 +1,24 @@
+{
+  "sourceLanguage" : "zh-Hant",
+  "strings" : {
+    "" : {
+
+    },
+    "My Widget" : {
+
+    },
+    "This is an example widget." : {
+
+    },
+    "主體" : {
+
+    },
+    "客體" : {
+
+    },
+    "輔助" : {
+
+    }
+  },
+  "version" : "1.0"
+}

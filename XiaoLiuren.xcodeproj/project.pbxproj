@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC69D4182A4F9C9B00328FD6 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = EC69D4172A4F9C9B00328FD6 /* Localizable.xcstrings */; };
+		EC69D4192A4F9C9B00328FD6 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = EC69D4172A4F9C9B00328FD6 /* Localizable.xcstrings */; };
+		EC69D41C2A4F9D0900328FD6 /* TabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC69D41B2A4F9D0900328FD6 /* TabbarView.swift */; };
+		EC6C98E02A4F99DE009D800D /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6C98DF2A4F99DE009D800D /* Common.swift */; };
+		EC6C98E22A4F9A75009D800D /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6C98DF2A4F99DE009D800D /* Common.swift */; };
 		EC849DEE28DF990000DFB619 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC849DED28DF990000DFB619 /* WidgetKit.framework */; };
 		EC849DF028DF990000DFB619 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC849DEF28DF990000DFB619 /* SwiftUI.framework */; };
 		EC849DF328DF990100DFB619 /* XiaoLiurenWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC849DF228DF990100DFB619 /* XiaoLiurenWidget.swift */; };
@@ -53,6 +58,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EC69D4162A4F9C6900328FD6 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/XiaoLiurenWidget.strings"; sourceTree = "<group>"; };
+		EC69D4172A4F9C9B00328FD6 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		EC69D41B2A4F9D0900328FD6 /* TabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarView.swift; sourceTree = "<group>"; };
+		EC6C98DF2A4F99DE009D800D /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		EC849DEB28DF990000DFB619 /* XiaoLiurenWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = XiaoLiurenWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC849DED28DF990000DFB619 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		EC849DEF28DF990000DFB619 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
@@ -97,6 +106,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC69D41A2A4F9CEE00328FD6 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				EC69D41B2A4F9D0900328FD6 /* TabbarView.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		EC6C98E12A4F9A6F009D800D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				EC6C98DF2A4F99DE009D800D /* Common.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		EC849DEC28DF990000DFB619 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +145,7 @@
 		EC8F2E4A28B7B66300CEEF8F = {
 			isa = PBXGroup;
 			children = (
+				EC69D4172A4F9C9B00328FD6 /* Localizable.xcstrings */,
 				ECCAD9D42A4E56C5006CFDE6 /* XiaoLiurenWidgetExtension.entitlements */,
 				EC8F2E5528B7B66300CEEF8F /* XiaoLiuren */,
 				EC849DF128DF990100DFB619 /* XiaoLiurenWidget */,
@@ -148,6 +174,7 @@
 				EC8F2E5828B7B66300CEEF8F /* ContentView.swift */,
 				EC8F2E5A28B7B66C00CEEF8F /* Assets.xcassets */,
 				EC8F2E5C28B7B66C00CEEF8F /* Preview Content */,
+				EC6C98E12A4F9A6F009D800D /* Common */,
 			);
 			path = XiaoLiuren;
 			sourceTree = "<group>";
@@ -172,6 +199,7 @@
 		ECCAD9ED2A4E5F01006CFDE6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EC69D41A2A4F9CEE00328FD6 /* Tabbar */,
 				ECCAD9EE2A4E5F01006CFDE6 /* TransparentBlurView.swift */,
 				ECCAD9EF2A4E5F01006CFDE6 /* Threeshin.swift */,
 				ECCAD9F02A4E5F01006CFDE6 /* HomeView.swift */,
@@ -239,11 +267,12 @@
 			};
 			buildConfigurationList = EC8F2E4E28B7B66300CEEF8F /* Build configuration list for PBXProject "XiaoLiuren" */;
 			compatibilityVersion = "Xcode 13.0";
-			developmentRegion = en;
+			developmentRegion = "zh-Hant";
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hant",
 			);
 			mainGroup = EC8F2E4A28B7B66300CEEF8F;
 			productRefGroup = EC8F2E5428B7B66300CEEF8F /* Products */;
@@ -261,6 +290,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC69D4192A4F9C9B00328FD6 /* Localizable.xcstrings in Resources */,
 				EC849DF628DF990200DFB619 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +301,7 @@
 			files = (
 				EC849E2B28E0755B00DFB619 /* nqjsi.json in Resources */,
 				EC8F2E5E28B7B66C00CEEF8F /* Preview Assets.xcassets in Resources */,
+				EC69D4182A4F9C9B00328FD6 /* Localizable.xcstrings in Resources */,
 				EC8F2E5B28B7B66C00CEEF8F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +316,7 @@
 				ECCAD9FD2A4E5FC7006CFDE6 /* Threeshin.swift in Sources */,
 				ECCAD9DD2A4E5DBD006CFDE6 /* Model.swift in Sources */,
 				EC849E3428E09E0400DFB619 /* XiaoLiurenWidget.intentdefinition in Sources */,
+				EC6C98E22A4F9A75009D800D /* Common.swift in Sources */,
 				EC849DF328DF990100DFB619 /* XiaoLiurenWidget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,9 +329,11 @@
 				ECCAD9F32A4E5F01006CFDE6 /* Threeshin.swift in Sources */,
 				ECCAD9F22A4E5F01006CFDE6 /* TransparentBlurView.swift in Sources */,
 				ECCAD9DC2A4E5DBD006CFDE6 /* Model.swift in Sources */,
+				EC6C98E02A4F99DE009D800D /* Common.swift in Sources */,
 				EC8F2E5928B7B66300CEEF8F /* ContentView.swift in Sources */,
 				EC8F2E5728B7B66300CEEF8F /* XiaoLiurenApp.swift in Sources */,
 				ECCAD9F52A4E5F01006CFDE6 /* EasyBodyInfo.swift in Sources */,
+				EC69D41C2A4F9D0900328FD6 /* TabbarView.swift in Sources */,
 				ECCAD9F42A4E5F01006CFDE6 /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,6 +354,7 @@
 			children = (
 				EC849E3528E09E0400DFB619 /* Base */,
 				EC849E3828E09E0600DFB619 /* en */,
+				EC69D4162A4F9C6900328FD6 /* zh-Hant */,
 			);
 			name = XiaoLiurenWidget.intentdefinition;
 			sourceTree = "<group>";
@@ -391,6 +426,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -451,6 +487,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";

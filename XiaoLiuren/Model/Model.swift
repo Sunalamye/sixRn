@@ -85,7 +85,7 @@ class ThreeShinModel: ObservableObject{
     @Published var mainBody: String = ""
     @Published var guest: String = ""
     @Published var supper: String = ""
-    
+    @Published var nowTime: String = "子"
     
     func splitNowYunShin(_ time:String = Date().lunarDate()){
         let strList = time.components(separatedBy: "-")
@@ -97,6 +97,7 @@ class ThreeShinModel: ObservableObject{
         
         let SH = shichen(intValue: three).intValue
         mainBody = SixRe(intValue: (one+two+SH-2)%6).rawValue
+        nowTime = shichen(intValue: three).rawValue
         
        
     }
