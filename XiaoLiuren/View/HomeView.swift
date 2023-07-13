@@ -16,6 +16,8 @@ struct HomeView: View {
                 .resizable()
                 .scaledToFill()
                 .ignoresSafeArea()
+                .scaleEffect(2)
+                .offset(y:-350)
 
             VStack {
                 Button {
@@ -23,21 +25,17 @@ struct HomeView: View {
                 } label: {
                     RoundedRectangle(cornerRadius: 10)
                         .frame(height: 100)
-                        .foregroundStyle(.gray)
+                        .foregroundStyle(Color(.background2))
                         .overlay {
                             Threeshin(vm: vm)
-                                .foregroundColor(.white)
+                                .foregroundColor(Color(.secon))
                         }
                 }
                 EasyBodyInfo(model: NSModel().getModel(Str: vm.mainBody))
-                    .foregroundColor(.black.opacity(0.6))
+                    .foregroundColor(Color(.background))
             }
             .padding()
-            .background{
-                TransparentBlurView(removeAllFilter: false)
-                    .blur(radius: 15)
-                    .background(.white.opacity(0.3))
-            }
+            .transparentBlur(removeAllFilter: false)
             .clipShape(.rect(cornerRadius: 15,style: .circular))
             .frame(width: UIScreen.main.bounds.width*0.85, alignment: .center)
         }

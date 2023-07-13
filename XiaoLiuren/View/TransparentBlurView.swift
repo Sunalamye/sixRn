@@ -33,8 +33,21 @@ struct TransparentBlurView: UIViewRepresentable {
     
 }
 
-struct TransparentBlurView_Previews: PreviewProvider {
-    static var previews: some View {
-        TransparentBlurView()
+struct TransparentBlurModifier: ViewModifier {
+    var removeAllFilter = false
+
+    func body(content: Content) -> some View {
+        content
+            .background(
+                TransparentBlurView(removeAllFilter: removeAllFilter)
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                    .edgesIgnoringSafeArea(.all)
+            )
+    }
+}
+
+extension View {
+    func transparentBlur(removeAllFilter: Bool = false) -> some View {
+        self.modifier(TransparentBlurModifier(removeAllFilter: removeAllFilter))
     }
 }

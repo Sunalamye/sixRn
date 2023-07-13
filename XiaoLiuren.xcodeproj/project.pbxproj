@@ -24,6 +24,7 @@
 		EC8F2E5928B7B66300CEEF8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8F2E5828B7B66300CEEF8F /* ContentView.swift */; };
 		EC8F2E5B28B7B66C00CEEF8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8F2E5A28B7B66C00CEEF8F /* Assets.xcassets */; };
 		EC8F2E5E28B7B66C00CEEF8F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8F2E5D28B7B66C00CEEF8F /* Preview Assets.xcassets */; };
+		EC99429A2A5FD5F200A729D7 /* String+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9942992A5FD5F200A729D7 /* String+Localized.swift */; };
 		ECCAD9DC2A4E5DBD006CFDE6 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCAD9DA2A4E5DBD006CFDE6 /* Model.swift */; };
 		ECCAD9DD2A4E5DBD006CFDE6 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCAD9DA2A4E5DBD006CFDE6 /* Model.swift */; };
 		ECCAD9F22A4E5F01006CFDE6 /* TransparentBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCAD9EE2A4E5F01006CFDE6 /* TransparentBlurView.swift */; };
@@ -77,6 +78,7 @@
 		EC8F2E5828B7B66300CEEF8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EC8F2E5A28B7B66C00CEEF8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC8F2E5D28B7B66C00CEEF8F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC9942992A5FD5F200A729D7 /* String+Localized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localized.swift"; sourceTree = "<group>"; };
 		ECCAD9D42A4E56C5006CFDE6 /* XiaoLiurenWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XiaoLiurenWidgetExtension.entitlements; sourceTree = "<group>"; };
 		ECCAD9D52A4E56D1006CFDE6 /* XiaoLiuren.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XiaoLiuren.entitlements; sourceTree = "<group>"; };
 		ECCAD9DA2A4E5DBD006CFDE6 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
@@ -166,6 +168,7 @@
 		EC8F2E5528B7B66300CEEF8F /* XiaoLiuren */ = {
 			isa = PBXGroup;
 			children = (
+				EC9942982A5FD5EB00A729D7 /* Extension */,
 				ECCAD9D52A4E56D1006CFDE6 /* XiaoLiuren.entitlements */,
 				EC849E3228E09DF000DFB619 /* Info.plist */,
 				ECCAD9D92A4E5DBD006CFDE6 /* Model */,
@@ -185,6 +188,14 @@
 				EC8F2E5D28B7B66C00CEEF8F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EC9942982A5FD5EB00A729D7 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EC9942992A5FD5F200A729D7 /* String+Localized.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		ECCAD9D92A4E5DBD006CFDE6 /* Model */ = {
@@ -334,6 +345,7 @@
 				EC8F2E5728B7B66300CEEF8F /* XiaoLiurenApp.swift in Sources */,
 				ECCAD9F52A4E5F01006CFDE6 /* EasyBodyInfo.swift in Sources */,
 				EC69D41C2A4F9D0900328FD6 /* TabbarView.swift in Sources */,
+				EC99429A2A5FD5F200A729D7 /* String+Localized.swift in Sources */,
 				ECCAD9F42A4E5F01006CFDE6 /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
