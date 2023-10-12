@@ -10,7 +10,7 @@
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "記錄"
+            "value" : "日記錄"
           }
         }
       }
@@ -35,7 +35,7 @@
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "筆記"
+            "value" : "記錄"
           }
         }
       }

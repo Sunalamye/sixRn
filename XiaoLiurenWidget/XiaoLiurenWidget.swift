@@ -49,25 +49,27 @@ struct XiaoLiurenWidgetEntryView : View {
     
     var body: some View {
         
-        switch family{
-        case .accessoryRectangular:
-            
-            Threeshin(vm: vm,fontSize: 14)
-        case .accessoryCircular:
-            HStack {
-                Text(vm.nowTime)
-                Text(vm.mainBody)
-            }
-        case .systemSmall:
-            ZStack{
-                ContainerRelativeShape()
-                    .fill(.gray.gradient)
+        ZStack{
+            switch family{
+            case .accessoryRectangular:
+                
                 Threeshin(vm: vm,fontSize: 14)
-                    .foregroundColor(.indigo)
+            case .accessoryCircular:
+                HStack {
+                    Text(vm.nowTime)
+                    Text(vm.mainBody)
+                }
+            case .systemSmall:
+                ZStack{
+                    ContainerRelativeShape()
+                        .fill(.gray.gradient)
+                     
+                    Threeshin(vm: vm,fontSize: 12)
+                }
+            default:
+                Text("")
             }
-        default:
-            Text("")
-        }
+        }.widgetBackground(Color.gray)
     }
 }
 
@@ -84,10 +86,17 @@ struct XiaoLiurenWidget: Widget {
     }
 }
 
+
+
+
+@available(iOSApplicationExtension 17.0, *)
 struct XiaoLiurenWidget_Previews: PreviewProvider {
     static var previews: some View {
         XiaoLiurenWidgetEntryView(entry: SimpleEntry(date: Date(), configuration: ConfigurationIntent()))
             .previewContext(WidgetPreviewContext(family: .systemSmall))
+            .containerBackground(for: .widget) {
+                
+            }
     }
 }
 

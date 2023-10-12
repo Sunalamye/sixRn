@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC4406C62AD8404000FC81DB /* Widget+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4406C52AD8404000FC81DB /* Widget+View.swift */; };
+		EC4406C72AD842D900FC81DB /* Widget+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4406C52AD8404000FC81DB /* Widget+View.swift */; };
+		EC4A63662A650D1200DCA7E3 /* TransparentBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCAD9EE2A4E5F01006CFDE6 /* TransparentBlurView.swift */; };
 		EC69D4182A4F9C9B00328FD6 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = EC69D4172A4F9C9B00328FD6 /* Localizable.xcstrings */; };
 		EC69D4192A4F9C9B00328FD6 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = EC69D4172A4F9C9B00328FD6 /* Localizable.xcstrings */; };
 		EC69D41C2A4F9D0900328FD6 /* TabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC69D41B2A4F9D0900328FD6 /* TabbarView.swift */; };
@@ -59,6 +62,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EC4406C52AD8404000FC81DB /* Widget+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Widget+View.swift"; sourceTree = "<group>"; };
 		EC69D4162A4F9C6900328FD6 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/XiaoLiurenWidget.strings"; sourceTree = "<group>"; };
 		EC69D4172A4F9C9B00328FD6 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		EC69D41B2A4F9D0900328FD6 /* TabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarView.swift; sourceTree = "<group>"; };
@@ -70,7 +74,7 @@
 		EC849DF528DF990200DFB619 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC849DF728DF990200DFB619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC849E2A28E0755B00DFB619 /* nqjsi.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = nqjsi.json; sourceTree = "<group>"; };
-		EC849E3228E09DF000DFB619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EC849E3228E09DF000DFB619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC849E3528E09E0400DFB619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; name = Base; path = Base.lproj/XiaoLiurenWidget.intentdefinition; sourceTree = "<group>"; };
 		EC849E3828E09E0600DFB619 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/XiaoLiurenWidget.strings; sourceTree = "<group>"; };
 		EC8F2E5328B7B66300CEEF8F /* XiaoLiuren.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XiaoLiuren.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,6 +112,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC4406C42AD8402F00FC81DB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EC4406C52AD8404000FC81DB /* Widget+View.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		EC4A63632A650BA200DCA7E3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				ECCAD9EF2A4E5F01006CFDE6 /* Threeshin.swift */,
+				ECCAD9F02A4E5F01006CFDE6 /* HomeView.swift */,
+				ECCAD9F12A4E5F01006CFDE6 /* EasyBodyInfo.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EC4A63642A650BD900DCA7E3 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				ECCAD9D52A4E56D1006CFDE6 /* XiaoLiuren.entitlements */,
+				EC849E3228E09DF000DFB619 /* Info.plist */,
+				EC8F2E5A28B7B66C00CEEF8F /* Assets.xcassets */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		EC4A63672A650D1B00DCA7E3 /* Transparent Blur View */ = {
+			isa = PBXGroup;
+			children = (
+				ECCAD9EE2A4E5F01006CFDE6 /* TransparentBlurView.swift */,
+			);
+			path = "Transparent Blur View";
+			sourceTree = "<group>";
+		};
+		EC4A63682A650D6B00DCA7E3 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		EC69D41A2A4F9CEE00328FD6 /* Tabbar */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +166,7 @@
 		EC6C98E12A4F9A6F009D800D /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				EC4A63672A650D1B00DCA7E3 /* Transparent Blur View */,
 				EC6C98DF2A4F99DE009D800D /* Common.swift */,
 			);
 			path = Common;
@@ -136,6 +184,7 @@
 		EC849DF128DF990100DFB619 /* XiaoLiurenWidget */ = {
 			isa = PBXGroup;
 			children = (
+				EC4406C42AD8402F00FC81DB /* Extension */,
 				EC849DF228DF990100DFB619 /* XiaoLiurenWidget.swift */,
 				EC849E3628E09E0400DFB619 /* XiaoLiurenWidget.intentdefinition */,
 				EC849DF528DF990200DFB619 /* Assets.xcassets */,
@@ -168,14 +217,12 @@
 		EC8F2E5528B7B66300CEEF8F /* XiaoLiuren */ = {
 			isa = PBXGroup;
 			children = (
+				EC4A63642A650BD900DCA7E3 /* Other */,
 				EC9942982A5FD5EB00A729D7 /* Extension */,
-				ECCAD9D52A4E56D1006CFDE6 /* XiaoLiuren.entitlements */,
-				EC849E3228E09DF000DFB619 /* Info.plist */,
 				ECCAD9D92A4E5DBD006CFDE6 /* Model */,
 				ECCAD9ED2A4E5F01006CFDE6 /* View */,
 				EC8F2E5628B7B66300CEEF8F /* XiaoLiurenApp.swift */,
 				EC8F2E5828B7B66300CEEF8F /* ContentView.swift */,
-				EC8F2E5A28B7B66C00CEEF8F /* Assets.xcassets */,
 				EC8F2E5C28B7B66C00CEEF8F /* Preview Content */,
 				EC6C98E12A4F9A6F009D800D /* Common */,
 			);
@@ -210,11 +257,9 @@
 		ECCAD9ED2A4E5F01006CFDE6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EC4A63682A650D6B00DCA7E3 /* New Group */,
+				EC4A63632A650BA200DCA7E3 /* Home */,
 				EC69D41A2A4F9CEE00328FD6 /* Tabbar */,
-				ECCAD9EE2A4E5F01006CFDE6 /* TransparentBlurView.swift */,
-				ECCAD9EF2A4E5F01006CFDE6 /* Threeshin.swift */,
-				ECCAD9F02A4E5F01006CFDE6 /* HomeView.swift */,
-				ECCAD9F12A4E5F01006CFDE6 /* EasyBodyInfo.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -327,7 +372,9 @@
 				ECCAD9FD2A4E5FC7006CFDE6 /* Threeshin.swift in Sources */,
 				ECCAD9DD2A4E5DBD006CFDE6 /* Model.swift in Sources */,
 				EC849E3428E09E0400DFB619 /* XiaoLiurenWidget.intentdefinition in Sources */,
+				EC4406C72AD842D900FC81DB /* Widget+View.swift in Sources */,
 				EC6C98E22A4F9A75009D800D /* Common.swift in Sources */,
+				EC4A63662A650D1200DCA7E3 /* TransparentBlurView.swift in Sources */,
 				EC849DF328DF990100DFB619 /* XiaoLiurenWidget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,6 +393,7 @@
 				ECCAD9F52A4E5F01006CFDE6 /* EasyBodyInfo.swift in Sources */,
 				EC69D41C2A4F9D0900328FD6 /* TabbarView.swift in Sources */,
 				EC99429A2A5FD5F200A729D7 /* String+Localized.swift in Sources */,
+				EC4406C62AD8404000FC81DB /* Widget+View.swift in Sources */,
 				ECCAD9F42A4E5F01006CFDE6 /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -556,14 +604,14 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = XiaoLiuren/XiaoLiuren.entitlements;
+				CODE_SIGN_ENTITLEMENTS = XiaoLiuren/Other/XiaoLiuren.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"XiaoLiuren/Preview Content\"";
 				DEVELOPMENT_TEAM = YRJZ6WG9VC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = XiaoLiuren/Info.plist;
+				INFOPLIST_FILE = XiaoLiuren/Other/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "簡單算";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -590,14 +638,14 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = XiaoLiuren/XiaoLiuren.entitlements;
+				CODE_SIGN_ENTITLEMENTS = XiaoLiuren/Other/XiaoLiuren.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"XiaoLiuren/Preview Content\"";
 				DEVELOPMENT_TEAM = YRJZ6WG9VC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = XiaoLiuren/Info.plist;
+				INFOPLIST_FILE = XiaoLiuren/Other/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "簡單算";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

@@ -18,7 +18,6 @@ struct HomeView: View {
                 .ignoresSafeArea()
                 .scaleEffect(2)
                 .offset(y:-350)
-
             VStack {
                 Button {
                     vm.splitNowYunShin()
@@ -36,7 +35,7 @@ struct HomeView: View {
             }
             .padding()
             .transparentBlur(removeAllFilter: false)
-            .clipShape(.rect(cornerRadius: 15,style: .circular))
+            .clipShape(.rect(cornerRadius: 25,style: .circular))
             .frame(width: UIScreen.main.bounds.width*0.85, alignment: .center)
         }
         

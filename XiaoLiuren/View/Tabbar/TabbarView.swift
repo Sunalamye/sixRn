@@ -11,28 +11,34 @@ import SwiftUI
 enum TabViewEnum:String,CaseIterable{
     case home,note,calendar,set
     
-    var image:Image{
+    private var unselectedImageName: String {
         switch self {
-        case .home:
-            Image(systemName: "house")
-        case .set:
-            Image(systemName: "gearshape.2.fill")
-        case .calendar:
-            Image(systemName: "calendar")
-        case .note:
-            Image(systemName: "highlighter")
+        case .home: "house"
+        case .note: "pencil"
+        case .calendar: "aqi.medium"
+        case .set: "gearshape.2"
         }
     }
+
+    private var selectedImageName: String {
+        switch self {
+        case .home: "house.fill"
+        case .note: "pencil.line"
+        case .calendar: "aqi.medium"
+        case .set: "gearshape.2.fill"
+        }
+    }
+
+    func image(isSelected: Bool) -> Image {
+        Image(systemName: isSelected ? selectedImageName : unselectedImageName,variableValue: isSelected ? 1 : 0)
+    }
+    
     var intValue:Int{
         switch self {
-        case .home:
-            1
-        case .note:
-            2
-        case .calendar:
-            3
-        case .set:
-            4
+        case .home: 1
+        case .note: 2
+        case .calendar: 3
+        case .set: 4
         }
     }
 }
@@ -77,8 +83,9 @@ struct TabBarItem: View {
                     }
                 }, label: {
                     HStack{
-                        tab.image
+                        tab.image(isSelected: select == tab)
                             .frame(width: 20, height: 20)
+                            
                         if tab == select{
                             Text(tab.rawValue.localized)
                                 .font(.system(size: 14))
@@ -97,8 +104,6 @@ struct TabBarItem: View {
     }
 }
 
-struct TabbarView_Previews: PreviewProvider {
-    static var previews: some View {
-        TabbarView()
-    }
+#Preview {
+    TabbarView()
 }

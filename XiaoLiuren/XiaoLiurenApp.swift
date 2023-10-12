@@ -12,7 +12,6 @@ struct XiaoLiurenApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-//            Threeshin(shin: .constant(["1","2","3"]),NowYunShin: .constant("38-8-29-13"))
         }
     }
 }
